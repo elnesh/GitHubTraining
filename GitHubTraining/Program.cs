@@ -30,6 +30,8 @@ namespace GitHubTraining
             cars.Add(new Car("Mazda", 2016, "Blue"));
             cars.Add(new Car("Nissan", 2010, "Red"));
             cars.Add(new Car("Bentley", 1950, "Red"));
+            cars.Add(new Car("Toyota", 2012, "White"));
+            cars.Add(new Car("Bugati", 1980, "Metalic"));
 
             int avarage = CalculateAvgYear(cars);
 
