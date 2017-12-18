@@ -8,7 +8,7 @@ namespace GitHubTraining
 {
     class Program
     {
-        public static int calculateMeanYear(List<Car> cars)
+        public static int CalculateAvgYear(List<Car> cars)
         {
             int avarage = 0;
             int sum = 0;
@@ -31,7 +31,7 @@ namespace GitHubTraining
             cars.Add(new Car("Nissan", 2010, "Red"));
             cars.Add(new Car("Bentley", 1950, "Red"));
 
-            int avarage = calculateMeanYear(cars);
+            int avarage = CalculateAvgYear(cars);
 
             Console.WriteLine(avarage);
         }
