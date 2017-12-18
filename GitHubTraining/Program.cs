@@ -25,10 +25,12 @@ namespace GitHubTraining
 
         static void Main(string[] args)
         {
-            Car car1 = new Car("Mazda", 2020, "Blue");
-            Car car2 = new Car("Nissan", 2010, "Red");
+            List<Car> cars = new List<Car>();
 
-            List<Car> cars = new List<Car> { car1, car2};
+            cars.Add(new Car("Mazda", 2016, "Blue"));
+            cars.Add(new Car("Nissan", 2010, "Red"));
+            cars.Add(new Car("Bentley", 1950, "Red"));
+
             int avarage = calculateMeanYear(cars);
 
             Console.WriteLine(avarage);
